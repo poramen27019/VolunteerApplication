@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:background="@color/A2A7A2">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+
+                    android:id="@+id/img_profile"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/member">
+
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/img_profile"-->
+                    <!--android:layout_width="120dp"-->
+                    <!--android:layout_height="120dp"-->
+                    <!--android:layout_gravity="center_vertical|center_horizontal"-->
+                    <!--android:layout_marginTop="20dp"-->
+                    <!--android:layout_marginBottom="10dp"-->
+                    <!--android:src="@drawable/test_profile">-->
+
+                <!--</ImageView>-->
+
+
+
+
+                <!--<TextView-->
+                <!--android:id="@+id/txtmember_username"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="newpond"-->
+                <!--android:textSize="18dp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:fontFamily="@font/regular"-->
+                <!--android:layout_marginBottom="15dp"-->
+                <!--android:textAlignment="center"/>-->
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_gravity="center_vertical|center_horizontal"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<Button-->
+                        <!--android:id="@+id/btn_Browse_profile"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:fontFamily="@font/regular"-->
+                        <!--android:text="เลือกรูปโปรไฟล์"-->
+                        <!--/>-->
+                <!--</LinearLayout>-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_below="@+id/img_profile">
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/text_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/img_profile"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.5"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/regular"
+                        android:text="Fisrt Name :" />
+
+                    <EditText
+                        android:id="@+id/txtmember_fname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/regular"
+                        android:text="Poramen"
+                        android:textColor="#7E7D7D"
+                        android:textSize="15dp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/text_profile1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:fontFamily="@font/regular"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.5"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/regular"
+                        android:textSize="15dp"
+                        android:text="Last Name :" />
+
+                    <EditText
+                        android:id="@+id/txtmember_lname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/regular"
+                        android:text=" Rodkhanmuang"
+                        android:textColor="#7E7D7D"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+
+
+                <!--<LinearLayout-->
+                <!--android:id="@+id/text_profile4"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginRight="10dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:orientation="horizontal"-->
+
+                <!--&gt;-->
+
+                <!--<TextView-->
+                <!--android:id="@+id/textView14"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="2.5"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textSize="15dp"-->
+                <!--android:text="E-mail :" />-->
+
+                <!--<EditText-->
+                <!--android:id="@+id/txtEmailRegister4"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text=" poramen_r@kkumail.com"-->
+                <!--android:textColor="#7E7D7D"-->
+                <!--android:textSize="15dp" />-->
+                <!--</LinearLayout>-->
+
+                <LinearLayout
+                    android:id="@+id/text_profile5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.5"
+                        android:fontFamily="@font/regular"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:text="Phone :" />
+
+                    <EditText
+                        android:id="@+id/txtmember_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=" 0981020701"
+                        android:textColor="#7E7D7D"
+                        android:fontFamily="@font/regular"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnprofile_update"
+                    android:onClick="btnprofile_update"
+                    android:layout_width="200dp"
+                    android:background="@color/A2A7A2"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:fontFamily="@font/regular"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="40dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:text="บันทึกการแก้ไข" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

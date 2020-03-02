@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F0EBEB"
+            android:layout_margin="5dp"
+            android:padding="10dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/txtevent_logo"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="5dp"
+                        android:scaleType="fitXY"
+                        android:layout_margin="10dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        >
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:src="@drawable/user"
+                            android:layout_marginRight="5dp"/>
+                        <TextView
+                            android:id="@+id/txtmember_fname"
+                            android:text=" - "
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/regular"
+                            android:textSize="10dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="238dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+
+                <TextView
+                    android:id="@+id/txtinterest_eventname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:fontFamily="@font/regular"
+                    android:textSize="17dp"
+                    android:text="ชื่องานกิจกรรม "
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp">
+                    <TextView
+                        android:id="@+id/txtnum1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#1A8B1F"
+                        android:fontFamily="@font/regular"
+                        android:text="เข้าร่วมแล้ว "/>
+                    <TextView
+                        android:id="@+id/txtnum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/regular"
+                        android:text=" 0"
+
+                        android:textStyle="bold"
+                        android:textColor="#5E5E5B" />
+                    <TextView
+                        android:id="@+id/txtnum2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="/"/>
+                    <TextView
+                        android:id="@+id/txtnum3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#5E5E5B"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/regular"
+                        android:text="50"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:src="@drawable/oclock"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="5dp"/>
+                    <TextView
+                        android:id="@+id/txtinterest_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/regular"
+                        android:text="  ถึงวันที่ 00/0/0000"
+                        android:textSize="15dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginLeft="2dp"
+                        android:src="@drawable/maps" />
+                    <TextView
+                        android:id="@+id/txtinterest_location"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/regular"
+                        android:text="  มหาวิทยาลัยขอนแก่น"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3">
+
+
+                <LinearLayout
+                    android:layout_width="19dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:orientation="vertical">
+
+                    <!--<ImageView-->
+                    <!--android:id="@+id/icon_report"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:src="@drawable/ic_more_horiz_black_24dp" />-->
+
+                    <!--<ImageView-->
+                    <!--android:id="@+id/icon_star"-->
+                    <!--android:layout_width="29dp"-->
+                    <!--android:layout_height="25dp"-->
+                    <!--android:layout_marginTop="15dp"-->
+                    <!--android:src="@drawable/star" />-->
+                    <Button
+                        android:id="@+id/btnicon_star"
+                        android:layout_width="1dp"
+                        android:layout_height="1dp"
+                       />
+
+                    <Button
+                        android:id="@+id/btnicon_star2"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:background="@drawable/star_yellow"
+                        android:visibility="gone" />
+                    <!--<ImageView-->
+                    <!--android:id="@+id/icon_view"-->
+                    <!--android:layout_width="30dp"-->
+                    <!--android:layout_height="30dp"-->
+                    <!--android:layout_marginTop="50dp"-->
+                    <!--android:src="@drawable/magnifying" />-->
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

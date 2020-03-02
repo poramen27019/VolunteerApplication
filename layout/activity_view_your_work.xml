@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#E7E4E4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ddd"
+                android:paddingBottom="15dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="#F5B8A5"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/regular"
+                            android:gravity="center"
+                            android:text="รายละเอียด"
+                            android:textSize="17dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/txtType"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/regular"
+                            android:text="ประเภท : "
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            tools:layout_editor_absoluteX="0dp"
+                            tools:layout_editor_absoluteY="41dp" />
+                        <TextView
+                            android:id="@+id/txtevent_type"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/regular"
+                            android:text="  "
+                            android:textSize="16dp"
+                            tools:layout_editor_absoluteX="0dp"
+                            tools:layout_editor_absoluteY="41dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txt2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/regular"
+                            android:text="หน่วยงาน : "
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            tools:layout_editor_absoluteX="0dp"
+                            tools:layout_editor_absoluteY="41dp" />
+
+                        <TextView
+                            android:id="@+id/txtevent_org"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:text=" - "
+                            android:textSize="16dp"
+                            tools:layout_editor_absoluteX="0dp"
+                            tools:layout_editor_absoluteY="41dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txt3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/regular"
+                            android:text="ผู้รับผิดชอบ : "
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            tools:layout_editor_absoluteX="0dp"
+                            tools:layout_editor_absoluteY="41dp" />
+
+                        <TextView
+                            android:id="@+id/txtmember_admin_fname"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/regular"
+                            android:text=" - "
+                            android:textSize="16dp"
+                            tools:layout_editor_absoluteX="0dp"
+                            tools:layout_editor_absoluteY="41dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txt4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/regular"
+                            android:text="รายละเอียดโครงการ : "
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            tools:layout_editor_absoluteX="0dp"
+                            tools:layout_editor_absoluteY="41dp" />
+
+                        <TextView
+                            android:id="@+id/txtevent_detail"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/regular"
+                            android:text=" - "
+                            android:textSize="16dp"
+                            tools:layout_editor_absoluteX="0dp"
+                            tools:layout_editor_absoluteY="41dp" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txt6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/regular"
+                            android:text="สถานที่ดำเนินงาน : "
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            tools:layout_editor_absoluteX="0dp"
+                            tools:layout_editor_absoluteY="41dp" />
+
+                        <TextView
+                            android:id="@+id/txtevent_location"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/regular"
+                            android:text=" - "
+                            android:textSize="16dp"
+                            tools:layout_editor_absoluteX="0dp"
+                            tools:layout_editor_absoluteY="41dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txt7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/regular"
+                            android:text="ติดต่อ : "
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            tools:layout_editor_absoluteX="0dp"
+                            tools:layout_editor_absoluteY="41dp" />
+
+                        <TextView
+                            android:id="@+id/txtmember_admin_phone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/regular"
+                            android:text=" - "
+                            android:textSize="16dp"
+                            tools:layout_editor_absoluteX="0dp"
+                            tools:layout_editor_absoluteY="41dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txt8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/regular"
+                            android:text="วันที่เริ่มงานกิจกรรม : "
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            tools:layout_editor_absoluteX="0dp"
+                            tools:layout_editor_absoluteY="41dp" />
+
+                        <TextView
+                            android:id="@+id/txtevent_date"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/regular"
+                            android:text=" - "
+                            android:textSize="16dp"
+                            tools:layout_editor_absoluteX="0dp"
+                            tools:layout_editor_absoluteY="41dp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/member_join_list_recycler">
+
+                </android.support.v7.widget.RecyclerView>
+
+
+
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:layout_marginRight="10dp"-->
+                    <!--android:background="@drawable/bg_member_join"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:padding="8dp"-->
+                    <!--android:weightSum="3">-->
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_gravity="center_vertical|center_horizontal">-->
+                    <!--</LinearLayout>-->
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="3"-->
+                        <!--android:orientation="vertical">-->
+                        <!--<TextView-->
+                            <!--android:id="@+id/member1"-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="match_parent"-->
+                            <!--android:fontFamily="@font/regular"-->
+                            <!--android:text="1. นายปรเมนทร์ รอดขันเมือง"-->
+                            <!--android:textSize="15dp"-->
+                            <!--android:textStyle="bold"-->
+                            <!--tools:layout_editor_absoluteX="0dp"-->
+                            <!--tools:layout_editor_absoluteY="41dp"/>-->
+                    <!--</LinearLayout>-->
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="3">-->
+                        <!--<LinearLayout-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_gravity="center_vertical|center_horizontal">-->
+                            <!--<ImageView-->
+                                <!--android:id="@+id/delete_memer1"-->
+                                <!--android:layout_width="20dp"-->
+                                <!--android:layout_height="20dp"-->
+                                <!--android:src="@drawable/ic_delete_black_24dp" />-->
+                        <!--</LinearLayout>-->
+                    <!--</LinearLayout>-->
+                <!--</LinearLayout>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

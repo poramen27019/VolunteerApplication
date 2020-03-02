@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="20dp" >
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/ic_report_problem_black_24dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="โปรดเลือกปัญหาเพื่อดำเนินการต่อ"
+            />
+
+
+</LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/radiolayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="50dp"
+                            android:layout_marginRight="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_below="@id/DateStartAddWorklayout">
+
+
+                                <RadioGroup
+                                android:id="@+id/radio"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" >
+
+                                        <RadioButton
+                                        android:id="@+id/radioMale"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="อันตรายต่อชีวิตและทรัพท์สิน" />
+
+                                        <RadioButton
+                                        android:id="@+id/radioFemale"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="หลอกลวง" />
+
+                                        <RadioButton
+                                            android:id="@+id/radio3"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="ผิดกฏหมาย" />
+                                        <RadioButton
+                                            android:id="@+id/radio4"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="การก่อการร้าย" />
+                                        <RadioButton
+                                            android:id="@+id/radio5"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="ระเมิดสิทธิมนุษยชน" />
+                                        <RadioButton
+                                            android:id="@+id/radio6"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="การก่อกวน" />
+                                </RadioGroup>
+
+
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/LocationAddWorklayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_below="@id/DateStartAddWorklayout">
+
+                                <TextView
+                                    android:id="@+id/textView8"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="อื่นๆ "
+                                    android:textSize="15dp"
+                                    android:textStyle="bold" />
+
+                                <EditText
+                                    android:id="@+id/txtreport"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="แจ้งปัญหา"
+                                    android:layout_marginLeft="10dp" />
+
+
+                        </LinearLayout>
+
+
+
+
+
+
+                        <Button
+                            android:id="@+id/btn_report"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="60dp"
+                            android:layout_marginRight="60dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_gravity="right"
+                            android:layout_weight="1"
+                            android:layout_below="@+id/imageView"
+                            android:text="ส่ง"
+                            android:layout_marginBottom="50dp"/>
+                </LinearLayout>
+        </ScrollView>
+</RelativeLayout>
+
+
+        <!--<RadioGroup-->
+            <!--android:id="@+id/radioSex"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" >-->
+
+            <!--<RadioButton-->
+                <!--android:id="@+id/radioMale"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="onw"-->
+                <!--android:checked="true" />-->
+
+            <!--<RadioButton-->
+                <!--android:id="@+id/radioFemale"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="tow" />-->
+
+        <!--</RadioGroup>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btnDisplay"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="one" />-->
+
+
+

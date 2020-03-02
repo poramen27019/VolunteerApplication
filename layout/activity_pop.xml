@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pop_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/bg_pop2"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="ลงชื่อเข้าร่วม"
+            android:fontFamily="@font/regular"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/member"/>
+
+        <TextView
+            android:id="@+id/txtmember_fname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ชื่อจริง"
+            android:textSize="17dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/regular"
+            android:textColor="#252525"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ชื่องาน "
+            android:textSize="17dp"
+
+            android:textColor="#252525"
+            android:fontFamily="@font/regular"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/popNameWork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="staff science week"
+            android:textSize="17dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#252525"
+            android:fontFamily="@font/regular"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="วันที่ "
+            android:textSize="17dp"
+
+            android:textColor="#252525"
+            android:fontFamily="@font/regular"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/poptime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15/11/2019"
+            android:textSize="17dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#252525"
+            android:fontFamily="@font/regular"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="สถานที่"
+            android:textSize="17dp"
+            android:textColor="#252525"
+            android:fontFamily="@font/regular"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/poplocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="สถานที่"
+            android:textSize="17dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#252525"
+            android:fontFamily="@font/regular"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="กรุณากดยืนยันเพื่อลงชื่อเข้าร่วม "
+            android:textSize="17dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/regular"
+            android:textColor="#3F51B5"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_confirm_join_work"
+            android:fontFamily="@font/regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:background="#BE6B52"
+            android:onClick="btn_Confirm"
+            android:text="ยืนยัน" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/interest_event_recycler">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical">-->
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical">-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:background="#F0EBEB"-->
+            <!--android:padding="10dp"-->
+            <!--android:weightSum="3">-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_vertical|center_horizontal">-->
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="vertical">-->
+                    <!--<ImageView-->
+                        <!--android:id="@+id/url1"-->
+                        <!--android:layout_width="50dp"-->
+                        <!--android:layout_height="50dp"-->
+                        <!--android:src="@drawable/logo1"-->
+                        <!--android:layout_centerVertical="true"-->
+
+                        <!--android:layout_marginBottom="5dp"-->
+                        <!--android:scaleType="fitXY"-->
+                        <!--android:layout_margin="10dp"-->
+                        <!--/>-->
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginTop="5dp"-->
+                        <!--android:layout_gravity="center_vertical|center_horizontal"-->
+                        <!--&gt;-->
+                        <!--<TextView-->
+                            <!--android:id="@+id/person_by"-->
+                            <!--android:text="ปรเมนทร์"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:textSize="10dp" />-->
+                        <!--<TextView-->
+                            <!--android:id="@+id/admin"-->
+                            <!--android:text=" - "-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:textSize="10dp"/>-->
+                    <!--</LinearLayout>-->
+                <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="3"-->
+                <!--android:orientation="vertical"-->
+                <!--android:paddingLeft="10dp"-->
+                <!--android:paddingRight="10dp">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/eventname"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:text="ช่วยงานวันประชุมผู้ปกครอง"-->
+                    <!--android:layout_marginBottom="5dp"-->
+                    <!--android:textSize="17dp"/>-->
+
+
+                <!--<TextView-->
+                    <!--android:id="@+id/username"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="  รับจำนวน 100 คน"-->
+                    <!--android:textSize="15dp"/>-->
+                <!--<TextView-->
+                    <!--android:id="@+id/dateend"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="  ถึงวันที่ 20/5/2019"-->
+                    <!--android:textSize="15dp"/>-->
+                <!--<TextView-->
+                    <!--android:id="@+id/location"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="  มหาวิทยาลัยขอนแก่น"-->
+                    <!--android:textSize="15dp"/>-->
+            <!--</LinearLayout>-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="3">-->
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_vertical|center_horizontal">-->
+                    <!--<ImageView-->
+                        <!--android:id="@+id/star"-->
+                        <!--android:layout_width="30dp"-->
+                        <!--android:layout_height="30dp"-->
+                        <!--android:src="@drawable/star_yellow" />-->
+                <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+
+
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="5dp"-->
+                <!--android:background="#F0EBEB"-->
+                <!--android:padding="10dp"-->
+                <!--android:weightSum="3">-->
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_vertical|center_horizontal">-->
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:orientation="vertical">-->
+                        <!--<ImageView-->
+                            <!--android:id="@+id/url2"-->
+                            <!--android:layout_width="50dp"-->
+                            <!--android:layout_height="50dp"-->
+                            <!--android:src="@drawable/logo2"-->
+                            <!--android:layout_centerVertical="true"-->
+
+                            <!--android:layout_marginBottom="5dp"-->
+                            <!--android:scaleType="fitXY"-->
+                            <!--android:layout_margin="10dp"-->
+                            <!--/>-->
+                        <!--<LinearLayout-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginTop="5dp"-->
+                            <!--android:layout_gravity="center_vertical|center_horizontal"-->
+                            <!--&gt;-->
+                            <!--<TextView-->
+                                <!--android:id="@+id/person_by2"-->
+                                <!--android:text="ศุภณัฐ"-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:textSize="10dp" />-->
+                            <!--<TextView-->
+                                <!--android:id="@+id/person2"-->
+                                <!--android:text=" - "-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:textSize="10dp"/>-->
+                        <!--</LinearLayout>-->
+                    <!--</LinearLayout>-->
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="3"-->
+                    <!--android:orientation="vertical"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:paddingRight="10dp">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/nameWork2"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:textStyle="bold"-->
+                        <!--android:text="ช่วยงานหลวงพ่อคูณ"-->
+                        <!--android:layout_marginBottom="5dp"-->
+                        <!--android:textSize="17dp"/>-->
+
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/username2"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="  รับจำนวน 100 คน"-->
+                        <!--android:textSize="15dp"/>-->
+                    <!--<TextView-->
+                        <!--android:id="@+id/dateend2"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="  ถึงวันที่ 20/5/2019"-->
+                        <!--android:textSize="15dp"/>-->
+                    <!--<TextView-->
+                        <!--android:id="@+id/location2"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="  มหาวิทยาลัยขอนแก่น"-->
+                        <!--android:textSize="15dp"/>-->
+                <!--</LinearLayout>-->
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="3">-->
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_gravity="center_vertical|center_horizontal">-->
+                        <!--<ImageView-->
+                            <!--android:id="@+id/star1"-->
+                            <!--android:layout_width="30dp"-->
+                            <!--android:layout_height="30dp"-->
+                            <!--android:src="@drawable/star_yellow" />-->
+                    <!--</LinearLayout>-->
+                <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="5dp"-->
+                <!--android:background="#F0EBEB"-->
+                <!--android:padding="10dp"-->
+                <!--android:weightSum="3">-->
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_vertical|center_horizontal">-->
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:orientation="vertical">-->
+                        <!--<ImageView-->
+                            <!--android:id="@+id/url"-->
+                            <!--android:layout_width="50dp"-->
+                            <!--android:layout_height="50dp"-->
+                            <!--android:layout_centerVertical="true"-->
+                            <!--android:src="@drawable/logo4"-->
+                            <!--android:layout_marginBottom="5dp"-->
+                            <!--android:scaleType="fitXY"-->
+                            <!--android:layout_margin="10dp"-->
+                            <!--/>-->
+                        <!--<LinearLayout-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginTop="5dp"-->
+                            <!--android:layout_gravity="center_vertical|center_horizontal"-->
+                            <!--&gt;-->
+                            <!--<TextView-->
+                                <!--android:id="@+id/person_by1"-->
+                                <!--android:text="อภิญญา"-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:textSize="10dp" />-->
+                            <!--<TextView-->
+                                <!--android:id="@+id/person1"-->
+                                <!--android:text=" - "-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:textSize="10dp"/>-->
+                        <!--</LinearLayout>-->
+                    <!--</LinearLayout>-->
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="3"-->
+                    <!--android:orientation="vertical"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:paddingRight="10dp">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/nameWork3"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:textStyle="bold"-->
+                        <!--android:text="Staff ค่ายอาสาพัฒนานักเรียนด้านกีฬา"-->
+                        <!--android:layout_marginBottom="5dp"-->
+                        <!--android:textSize="17dp"/>-->
+
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/username3"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="  รับจำนวน 100 คน"-->
+                        <!--android:textSize="15dp"/>-->
+                    <!--<TextView-->
+                        <!--android:id="@+id/dateend3"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="  ถึงวันที่ 20/5/2019"-->
+                        <!--android:textSize="15dp"/>-->
+                    <!--<TextView-->
+                        <!--android:id="@+id/location3"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="  มหาวิทยาลัยขอนแก่น"-->
+                        <!--android:textSize="15dp"/>-->
+                <!--</LinearLayout>-->
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="3">-->
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_gravity="center_vertical|center_horizontal">-->
+                        <!--<ImageView-->
+                            <!--android:id="@+id/star2"-->
+                            <!--android:layout_width="30dp"-->
+                            <!--android:layout_height="30dp"-->
+                            <!--android:src="@drawable/star_yellow" />-->
+                    <!--</LinearLayout>-->
+                <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="5dp"-->
+                <!--android:background="#F0EBEB"-->
+                <!--android:padding="10dp"-->
+                <!--android:weightSum="3">-->
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_vertical|center_horizontal">-->
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:orientation="vertical">-->
+                        <!--<ImageView-->
+                            <!--android:id="@+id/url4"-->
+                            <!--android:layout_width="50dp"-->
+                            <!--android:layout_height="50dp"-->
+                            <!--android:layout_centerVertical="true"-->
+                            <!--android:src="@drawable/logo3"-->
+                            <!--android:layout_marginBottom="5dp"-->
+                            <!--android:scaleType="fitXY"-->
+                            <!--android:layout_margin="10dp"-->
+                            <!--/>-->
+                        <!--<LinearLayout-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginTop="5dp"-->
+                            <!--android:layout_gravity="center_vertical|center_horizontal"-->
+                            <!--&gt;-->
+                            <!--<TextView-->
+                                <!--android:id="@+id/person_by4"-->
+                                <!--android:text="ศิวกร"-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:textSize="10dp" />-->
+                            <!--<TextView-->
+                                <!--android:id="@+id/person4"-->
+                                <!--android:text=" - "-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:textSize="10dp"/>-->
+                        <!--</LinearLayout>-->
+                    <!--</LinearLayout>-->
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="3"-->
+                    <!--android:orientation="vertical"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:paddingRight="10dp">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/nameWork4"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:textStyle="bold"-->
+                        <!--android:text="อาสาพัฒนาสวนสาธารณะ"-->
+                        <!--android:layout_marginBottom="5dp"-->
+                        <!--android:textSize="17dp"/>-->
+
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/username4"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="  รับจำนวน 100 คน"-->
+                        <!--android:textSize="15dp"/>-->
+                    <!--<TextView-->
+                        <!--android:id="@+id/dateend4"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="  ถึงวันที่ 20/5/2019"-->
+                        <!--android:textSize="15dp"/>-->
+                    <!--<TextView-->
+                        <!--android:id="@+id/location4"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="  มหาวิทยาลัยขอนแก่น"-->
+                        <!--android:textSize="15dp"/>-->
+                <!--</LinearLayout>-->
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="3">-->
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_gravity="center_vertical|center_horizontal">-->
+                        <!--<ImageView-->
+                            <!--android:id="@+id/star3"-->
+                            <!--android:layout_width="30dp"-->
+                            <!--android:layout_height="30dp"-->
+                            <!--android:src="@drawable/star_yellow" />-->
+                    <!--</LinearLayout>-->
+                <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+
+
+<!--&lt;!&ndash;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&ndash;&gt;-->
+
+        <!--</LinearLayout>-->
+    <!--</ScrollView>-->
+<!--</LinearLayout>-->

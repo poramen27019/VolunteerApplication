@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:background="#F0EBEB"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/txteventname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/regular"
+            android:text="ชื่องานกิจกรรม"
+            android:textSize="17dp"/>
+
+        <!--<TextView-->
+            <!--android:id="@+id/amount"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="  สมัครแล้ว 60/100 "-->
+            <!--android:textSize="15dp"-->
+            <!--android:layout_below="@+id/txteventname"-->
+            <!--android:fontFamily="@font/regular"-->
+            <!--android:textColor="@android:color/holo_green_dark"/>-->
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_below="@+id/txteventname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:layout_marginBottom="5dp"
+            >
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/join"/>
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="เข้าร่วมแล้ว "
+                android:textColor="#4CAF50"
+                android:fontFamily="@font/regular"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/txtevent_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:fontFamily="@font/regular"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/"
+                android:fontFamily="@font/regular"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/txtevent_sum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:fontFamily="@font/regular"
+                android:textSize="15dp"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_below="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:layout_marginBottom="5dp"
+            >
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/oclock"/>
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="เริ่มกิจกรรม "
+
+                android:fontFamily="@font/regular"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/txtevent_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11/12/2019"
+                android:fontFamily="@font/regular"
+                android:textSize="15dp"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout3"
+            android:layout_below="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:layout_marginBottom="5dp"
+            >
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/maps"/>
+
+            <TextView
+                android:id="@+id/txtevent_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="สถานที่"
+
+                android:fontFamily="@font/regular"
+                android:textSize="15dp"/>
+
+
+
+
+        </LinearLayout>
+        <!--<TextView-->
+            <!--android:id="@+id/txtevent_date"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="  เริ่มกิจกรรม 10/5/2019"-->
+            <!--android:layout_below="@+id/amount"-->
+            <!--android:fontFamily="@font/regular"-->
+            <!--android:textSize="15dp"/>-->
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>
